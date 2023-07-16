@@ -6,8 +6,7 @@ const Home = () => {
 
     return(
         <div className="App">
-            <section className="showcase-area" style={{background: 
-                linear-gradient(rgba(240, 240, 240, 0.144),rgba(255, 255, 255, 0.336)),url({Logo})}} id="showcase">
+            <section className="showcase-area"  id="showcase">
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Eat Right Food</h1>
                     <p>Eat Healty, it is good for our health.</p>
