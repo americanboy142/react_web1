@@ -8,16 +8,17 @@ const Home = () => {
         <div className="App">
             <section className="showcase-area"  id="showcase">
                 <div className="showcase-container">
-                    <h1 className="main-title" id="home">Eat Right Food</h1>
-                    <p>Eat Healty, it is good for our health.</p>
+                    <h1 className="main-title" id="home">Via Carvagio</h1>
+                    <p>Classic Neopolitan pizza</p>
+                    <p>Located in the Paso market from 10-6</p>
+                    <p>phone</p>
                     <Link to='/menu' className="btn btn-primary">Menu</Link>
                 </div>
-    </section>
-            <h1>
-                TITLE
-            </h1>
-            <img src={pizza1} alt="Affumicata"/>
-
+            </section>
+            <div className='container'>
+                <h1>About us</h1>
+                <p> E.R. doc turned pizza chief </p>
+            </div>
         </div>
     );
 

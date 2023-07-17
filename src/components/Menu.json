@@ -1,0 +1,51 @@
+{
+"starter": [{
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/affumicata.png",
+    "Name":"Affumicata",
+    "Description":"Bruschetta but meat", "Price": 8.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/bruschetta.png",
+    "Name":"Bruschetta",
+    "Description":"Classic Bruschetta but better", "Price": 6.2}]
+    
+,
+
+"pizza":[{
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/marinara.png",
+    "Name":"Marinara","Description":"Classic Neopoliton Marinara.", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/marg.jpg",
+    "Name":"Margarita",
+    "Description":"Classic Margarita with the classic margarita stuff.", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/4cheese.png",
+    "Name":"Four Cheese",
+    "Description":"Cheese pizza but with four cheeses.", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/regina.png",
+    "Name":"Regina",
+    "Description":"Margarita but with more cheese.", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/fancy2.png",
+    "Name":"Fancy 2",
+    "Description":"Very fancy pizza so get it.", "Price": 14.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/salmon.png",
+    "Name":"Salmon Pizza",
+    "Description":"Fish pizza is the best pizza.", "Price": 14.2}]
+
+,
+
+"dessert":[{
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/dessert.jpg",
+    "Name":"Dessert Pizza",
+    "Description":"Pizza but for after pizza", "Price": 10.2}]
+
+,
+
+"wine":[{
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine.png",
+    "Name":"Wine",
+    "Description":"Classic Neopoliton Marinara", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/win1.png",
+    "Name":"Another wine",
+    "Description":"Classic Neopoliton Marinara", "Price": 12.2},
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine2.png",
+    "Name":"Probably tastes the same",
+    "Description":"Classic Neopoliton Marinara", "Price": 12.2}]
+
+}
