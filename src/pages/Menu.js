@@ -3,8 +3,8 @@ import PizzaCard from "../components/MenuCard";
 import photo from "../pizzas/marinara.png";
 import './menu.css';
 import MenuList from "../components/Menu.json";
-/* 
-import { Link } from "react-scroll"; */
+
+import { Link } from "react-scroll"; 
 
 import MenuCard from "../components/MenuCard";
 
@@ -26,10 +26,12 @@ const Menu = () => {
              <section className="showcase-area"  id="showcase">
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Menu</h1>
-                    {/* <Link to='starter' smooth={true} duration={500} className="inline-button btn btn-primary">Starters</Link>
-                    <Link to='pizza' smooth={true} duration={500} className="inline-button btn btn-primary">Pizza</Link>
-                    <Link to='dessert' smooth={true} duration={500} className="inline-button btn btn-primary">Desserts</Link>
-                    <Link to='wine' smooth={true} duration={500} className="inline-button btn btn-primary">Wine</Link> */}
+                    <div className="inline-button">
+                    <Link to='starter' smooth={true} duration={500} className="btn btn-primary">Starters</Link>
+                    <Link to='pizza' smooth={true} duration={500} className="btn btn-primary">Pizza</Link>
+                    <Link to='dessert' smooth={true} duration={500} className="btn btn-primary">Desserts</Link>
+                    <Link to='wine' smooth={true} duration={500} className="btn btn-primary">Wine</Link>
+                    </div>
                 </div>
             </section>
             <div className='food'>
@@ -39,18 +41,27 @@ const Menu = () => {
                     <MenuCard item={starter} />
                 ))}
                 </div>
+
                 <div id='pizza'><h2>Pizzas</h2></div>
+                <div className='food-menu-container'>
                 {pizzaArray.map((pizza) => (
                     <MenuCard item = {pizza} />
                 ))}
+                </div>
+
                 <div id='dessert'><h2>Desserts</h2></div>
+                <div className='food-menu-container'>
                 {dessertArray.map((dessert) => (
                     <MenuCard item = {dessert} />
                 ))}
+                </div>
+
                 <div id='wine'><h2>Wine</h2></div>
+                <div className='food-menu-container'>
                 {wineArray.map((wine) => (
                     <MenuCard item = {wine} />
                 ))}
+                </div>
             </div>
         </div>
     );

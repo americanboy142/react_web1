@@ -38,10 +38,10 @@
 ,
 
 "wine":[{
-    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine.png",
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine.jpg",
     "Name":"Wine",
     "Description":"Classic Neopoliton Marinara", "Price": 12.2},
-    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/win1.png",
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine1.png",
     "Name":"Another wine",
     "Description":"Classic Neopoliton Marinara", "Price": 12.2},
     {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine2.png",
