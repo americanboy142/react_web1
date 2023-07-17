@@ -12,7 +12,7 @@
 "pizza":[{
     "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/marinara.png",
     "Name":"Marinara","Description":"Classic Neopoliton Marinara.", "Price": 12.2},
-    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/marg.jpg",
+    {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/marg.png",
     "Name":"Margarita",
     "Description":"Classic Margarita with the classic margarita stuff.", "Price": 12.2},
     {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/4cheese.png",
@@ -38,7 +38,7 @@
 ,
 
 "wine":[{
-    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine.jpg",
+    "Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine.png",
     "Name":"Wine",
     "Description":"Classic Neopoliton Marinara", "Price": 12.2},
     {"Photo": "https://raw.githubusercontent.com/americanboy142/react_web1/main/src/pizzas/wine1.png",
