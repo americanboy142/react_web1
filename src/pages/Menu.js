@@ -10,10 +10,9 @@ import MenuCard from "../components/MenuCard";
 
 
 const Menu = () => {
-    const pizza1 = {
-        "photo": {photo},
-        "name": "The Best",
-        "description": "All the pizza in the world"
+    const h2Style = {
+        'text-align': 'center',
+        'font-size': '30px'
     }
 
     const starterArray = MenuList.starter;
@@ -36,28 +35,28 @@ const Menu = () => {
                 </div>
             </section>
             <div className='food'>
-                <div id='starter'><h2>Starters</h2></div>
+                <div id='starter'><h2 style={h2Style}>Starters</h2></div>
                 <div className='food-menu-container'>
                 {starterArray.map((starter) => (
                     <MenuCard item={starter} />
                 ))}
                 </div>
 
-                <div id='pizza'><h2>Pizzas</h2></div>
+                <div id='pizza'><h2 style={h2Style}>Pizzas</h2></div>
                 <div className='food-menu-container'>
                 {pizzaArray.map((pizza) => (
                     <MenuCard item = {pizza} />
                 ))}
                 </div>
 
-                <div id='dessert'><h2>Desserts</h2></div>
+                <div id='dessert'><h2 style={h2Style}>Desserts</h2></div>
                 <div className='food-menu-container'>
                 {dessertArray.map((dessert) => (
                     <MenuCard item = {dessert} />
                 ))}
                 </div>
 
-                <div id='wine'><h2>Wine</h2></div>
+                <div id='wine'><h2 style={h2Style}>Wine</h2></div>
                 <div className='food-menu-container'>
                 {wineArray.map((wine) => (
                     <MenuCard item = {wine} />
