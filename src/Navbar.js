@@ -1,30 +1,27 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 import Logo from "./Logo.png";
+import insta from "./insta.png";
+import './components/navbar.css';
 
 const Navbar = () => {
-    const logo_style = {
-        width : '10%',
-        height : 'auto',
-    }
 
     return(
         <nav className="navbar">
-        <div className="navbar-container container">
-            <div className="hamburger-lines">
-                <span><Link to="/">Home</Link></span>
-                <span><Link to="/menu">Menu</Link></span>
-                <span><a href="https:instagram/viacar">Instagram</a></span>
-            </div>
-            <ul className="menu-items">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/menu">Menu</Link></li>
-                <li>       </li>
-                <li><a href="https:instagram/viacar">gram</a></li>
-            </ul>
-            <div className="logo"><img src={Logo} style={logo_style}></img></div>
-            </div>
+            <div className="navbar-logo"><img src={Logo}></img></div>
+            <ul className="navbar-items">
+                <li className="navbar-item">
+                    <Link to="/">Home</Link>
+                </li>
+                <li className="navbar-item">
+                    <Link to="/menu">Menu</Link>
+                </li>
+                <li className="navbar-item">
+                    <Link to="/contact">Contact</Link>
+                </li>
+            </ul> 
         </nav>
+
     );
 };
 

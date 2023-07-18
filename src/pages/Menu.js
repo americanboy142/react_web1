@@ -27,10 +27,11 @@ const Menu = () => {
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Menu</h1>
                     <div className="inline-button">
-                    <Link to='starter' smooth={true} duration={500} className="btn btn-primary">Starters</Link>
-                    <Link to='pizza' smooth={true} duration={500} className="btn btn-primary">Pizza</Link>
-                    <Link to='dessert' smooth={true} duration={500} className="btn btn-primary">Desserts</Link>
-                    <Link to='wine' smooth={true} duration={500} className="btn btn-primary">Wine</Link>
+                        <div className="menu-buttons">
+                    <Link to='pizza' smooth={true} duration={500} className="menu-button">Pizza</Link>
+                    <Link to='dessert' smooth={true} duration={500} className="menu-button">Dessert</Link>
+                    <Link to='wine' smooth={true} duration={500} className="menu-button">Wine</Link>
+                    </div>
                     </div>
                 </div>
             </section>
