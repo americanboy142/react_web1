@@ -1,0 +1,138 @@
+.showcase-area {
+    height: 50vh;
+    background: linear-gradient(
+        rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)
+      ),
+      url("https://github.com/americanboy142/react_web1/blob/main/src/Logo.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  }
+  
+  .main-title {
+    text-transform: uppercase;
+    margin-top: 1.5em;
+  }
+
+  .inline-button {
+    display: inline-block;
+    margin: 20px;
+
+  }
+
+  .menu-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .menu-button {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu-button svg {
+    font-size: 30px;
+    color: #6795e4 ;
+  }
+
+
+  .menu-button svg:hover{
+    color: #36d48a;
+  }
+
+
+  .menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .menu-item {
+    flex: 0 0 calc(50% - 20px);
+    padding: 20px;
+    display: flex;
+  }
+  
+  .menu-item img{
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  background-color: #fff
+  }
+
+  .menu-item-info {
+    flex: 1; 
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  .price {
+    font-weight: bold;
+  }
+
+
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+
+    .menu-item {
+      flex: 0 0 calc(50% - 20px); 
+      padding: 20px;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .menu-item-info {
+      margin: 0 0;
+    }
+
+
+    .menu-item img{
+      max-width: 250px;
+      max-height: 250px;
+      margin-bottom: 0;
+      }
+  }
+

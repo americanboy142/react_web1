@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../components/contact.css';
 
 const Contact = () => {
-    const constactStyle = {
-        justifyContent: 'center'
-    }
+
 
     return(
-        <div className="container" style={constactStyle}>
-            <div className="container" >
-                <h1>Contact us</h1>
-                <Link to='https://www.instagram.com/viacaravaggio147/' >@viacaravaggio147</Link>
-                <p>Phone: (805) 452-5688</p>
-                <p>Address: passo walk</p>
-            </div>
+        <div className="App">
+            <section className="showcase-area"  id="showcase">
+                <div className="showcase-container">
+                    <h1 className="main-title" id="home">Contact us</h1>
+                    <p>Phone: (805) 452-5688</p>
+                    <p>Address: passo walk</p>
+                    <Link to='https://www.instagram.com/viacaravaggio147/' className="btn btn-primary">Instagram</Link>
+                </div>
+            </section>
         </div>
     );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import pizza1 from '../pizzas/affumicata.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
             <section className="showcase-area"  id="showcase">
                 <div className="showcase-container">
                     <h1 className="main-title" id="home">Via Carvagio</h1>
-                    <p>Paso market from 10-6</p>
+                    <p>51 Pizzas Left</p>
                     <Link to='/menu' className="btn btn-primary">Menu</Link>
                 </div>
             </section>
