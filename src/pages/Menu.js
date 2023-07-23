@@ -35,10 +35,10 @@ const Menu = () => {
                                 <FontAwesomeIcon icon={faPizzaSlice}/>
                             </Link>
                             <Link to='dessert' smooth={true} duration={500} className="menu-button">
-                                <FontAwesomeIcon icon={faIceCream} />
+                                <FontAwesomeIcon icon={faIceCream}/>
                             </Link>
                             <Link to='wine' smooth={true} duration={500} className="menu-button">
-                                <FontAwesomeIcon icon={faWineGlass} />
+                                <FontAwesomeIcon icon={faWineGlass}/>
                             </Link>
             </div>  
             <div className='food'>

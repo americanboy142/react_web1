@@ -43,7 +43,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
     border: none;
     border-radius: 50%;
     padding: 10px;
@@ -58,12 +57,11 @@
 
   .menu-button svg {
     font-size: 30px;
-    color: #6795e4 ;
   }
 
 
   .menu-button svg:hover{
-    color: #36d48a;
+    color: #3a60f7;
   }
 
 
